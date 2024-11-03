@@ -1,0 +1,27 @@
+@import "./scss/bootstrap";
+@import "./scss/hero";
+@import "./scss/appLoader";
+@import "./scss/style";
+.navbar{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+  .register{
+    max-width:500px ;
+    margin: auto;
+    box-shadow: 5px 5px 10px lavenderblush;
+    }
+    .register-card, .login-card{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+     .info-card{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 90vh;
+    }
+    .cart-items{
+      margin-bottom: 200px;
+    }

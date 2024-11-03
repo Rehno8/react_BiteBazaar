@@ -1,0 +1,60 @@
+.hero-section{
+    background-image: url(../Assets/Hero.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+ 
+  }
+
+
+  .hero-section {
+    padding: 60px 0; /* Add vertical padding for more space */
+}
+
+.title-1 {
+    font-size: 2.5rem; /* Adjust font size */
+    margin-bottom: 20px; /* Space between title and paragraph */
+}
+
+.title-2 {
+    font-size: 1.25rem; /* Adjust font size */
+    margin-bottom: 30px; /* Space between paragraph and button */
+}
+
+
+
+.second-section {
+  background-color: #f8f9fa; /* Light background for contrast */
+  border-radius: 10px; /* Rounded corners */
+}
+
+.card {
+  border-radius: 10px; /* Match the card corners with the section */
+}
+
+
+  .card{
+    background-color: rgb(246, 246, 246);
+  }
+  .card1{
+    background-color: rgb(231, 229, 229);
+  }
+  .button3{
+    margin-left: 190px;
+  }
+  .primary-hover:hover{
+      color: green !important;
+  }
+  .custom-image {
+    transition: transform 0.3s ease; /* Smooth transition for scaling */
+}
+
+.custom-image:hover {
+    transform: scale(1.1); /* Scale the image slightly on hover */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
